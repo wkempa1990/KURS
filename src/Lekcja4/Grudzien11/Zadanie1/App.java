@@ -8,7 +8,7 @@ public class App {
         Prostokat prostokat = new Prostokat();
         Kolko kolko = new Kolko();
         Kwadrat kwadrat = new Kwadrat();
-        System.out.println("Podaj ilosc figur: ");
+        System.out.println("Podaj ilosc figur(od 1 do 3): ");
         int ilosc = new Scanner(System.in).nextInt();
         if (ilosc == 1) {
             System.out.println("Podaj figure:\n1(Kolko)\n2(Prostokat)\n3(Kwadrat)");
