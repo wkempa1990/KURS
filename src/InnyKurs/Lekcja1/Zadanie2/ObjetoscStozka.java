@@ -21,7 +21,6 @@ public class ObjetoscStozka {
         //wzor na objetosc = 1/3*Pb*H
         double objetoscStozka = a * pB * h;
         System.out.println("Objetosc stozka = " + objetoscStozka);
-
-
     }
 }
+
